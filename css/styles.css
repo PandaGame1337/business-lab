@@ -781,3 +781,29 @@ input:valid~.auth-label {
     margin-left: 10px;
     color: var(--text-color);
 }
+
+.charts-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.charts{
+    margin-top: 30px;
+}
+
+.charts-title{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.charts-title h3{
+    font-size: 36px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.charts-title span{
+    font-size: 36px;
+    color: var(--text-accent);
+    font-weight: 600;
+}
