@@ -807,3 +807,80 @@ input:valid~.auth-label {
     color: var(--text-accent);
     font-weight: 600;
 }
+
+.about-courses{
+    background-color: #f4f4f4;
+}
+
+.about-title{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 36px;
+    padding: 20px 0;
+}
+
+.about-block{
+    width: 40%;
+}
+
+.about-spec{
+    color: var(--text-color);
+    font-size: 24px;
+}
+
+.about-spec-text{
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+
+.about-spec span{
+    color: var(--text-accent);
+}
+
+.about-plus-text{
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 0 13px;
+    width: 650px;
+}
+
+.about-row-style{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-contacts-block{
+    height: 275px;
+    background-image: url(images/about-banner.svg);
+}
+
+.about-info-title{
+    margin: 0 20px;
+}
+
+.about-contacts-text{
+    color: var(--text-color);
+    margin: 0 20px;
+}
+
+.about-ul-style{
+    padding: 0;
+    margin: 0;
+}
+
+.about-ul-style li{
+    list-style: none;
+}
+
+.about-ul-style li a:hover{
+    cursor: pointer;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.about-contacts-row-style{
+    display: flex;
+    justify-content: center;
+}
