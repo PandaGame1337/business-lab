@@ -788,7 +788,7 @@ input:valid~.auth-label {
 }
 
 .charts{
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 .charts-title{
@@ -883,4 +883,45 @@ input:valid~.auth-label {
 .about-contacts-row-style{
     display: flex;
     justify-content: center;
+}
+
+.idei{
+    background-color: var(--text-accent);
+}
+
+.idei-title h3{
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.idei-input{
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.idei-input:focus{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0;
+    box-shadow: inset 0 0 6px var(--text-accent);
+}
+
+.idei-btn{
+    margin: 10px 500px;
+    border: none;
+    background-color: #fff;
+    color: var(--text-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.idei-btn:focus{
+    outline: none;
 }
