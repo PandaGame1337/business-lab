@@ -925,3 +925,116 @@ input:valid~.auth-label {
 .idei-btn:focus{
     outline: none;
 }
+
+.course-row{
+    display: flex;
+    justify-content: start;
+}
+
+.img-take{
+    width: 170px;
+}
+
+.img-take button{
+    color: var(--text-color);
+    background-color: transparent;
+    border: 1px solid var(--text-accent);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 25px 15px 25px;
+}
+
+.img-take button:hover{
+    box-shadow: 0 0 4px 1px var(--text-accent);
+    color: var(--text-color);
+}
+
+.img-take button:focus {
+    outline: none;
+}
+
+.course-information{
+    margin: 15px 25px;
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.course-information span{
+    color: var(--text-accent);
+}
+
+.info-course{
+    margin-left: 20px;
+}
+
+.course-head {
+    color: var(--text-color);
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.course-text{
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.course-learn-head{
+    text-align: center;
+    font-size: 28px;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+
+.course-learn{
+    padding: 0;
+    margin: 0;
+}
+
+.course-learn li {
+    list-style-type: none;
+}
+
+.course-learn li:before {
+    content: "✓ ";
+}
+
+.course-learn-block{
+    width: 450px;
+}
+
+.grade-course{
+    margin: 0 60px;
+    color: #999999;
+}
+
+.grade-course-style{
+    text-align: center;
+}
+
+.f-grade{
+    font-size: 28px;
+    color: var(--text-accent);
+}
+
+.lesson-number{
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    font-size: 28px;
+    color: var(--text-accent);
+}
+
+.lesson-number-block{
+    color: var(--text-color);
+    font-size: 16px;
+    margin: auto;
+}
+
+.about-lesson-text{
+    margin: 5px 0 0 20px;
+}
+
+.about-lessons-block{
+    margin: 20px 0;
+}
