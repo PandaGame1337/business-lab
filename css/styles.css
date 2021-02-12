@@ -126,7 +126,7 @@ header{
     color: var(--text-color);
     font-weight: 600;
     line-height: 56px;
-    margin: 20px 0 30px 2px;
+    margin: 30px 0 60px 2px;
 }
 
 .banner-text-title span{
@@ -792,8 +792,9 @@ input:valid~.auth-label {
 }
 
 .charts-title{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 10px;
+    width: 470px;
 }
 
 .charts-title h3{
@@ -806,6 +807,11 @@ input:valid~.auth-label {
     font-size: 36px;
     color: var(--text-accent);
     font-weight: 600;
+}
+
+.charts-title p{
+    color: var(--text-color);
+    margin-top: 15px;
 }
 
 .about-courses{
@@ -885,43 +891,63 @@ input:valid~.auth-label {
     justify-content: center;
 }
 
-.idei{
-    background-color: var(--text-accent);
+.feedback{
+    background-color: #f4f4f4;
 }
 
-.idei-title h3{
+.feedback-title h3{
     font-size: 32px;
-    color: #fff;
+    color: var(--text-accent);
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
-.idei-input{
+.feedback-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-feedback{
+    border: 1px solid var(--text-accent);
+    border-radius: 2px;
+}
+
+.input-feedback:focus{
+    box-shadow: 0 0 4px 1px var(--text-accent);
+    box-sizing: padding-box;
     border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 5px;
-}
-
-.idei-input:focus{
     outline: none;
-    border: none;
-    width: 100%;
+}
+
+.name-input{
+    width: 240px;
     height: 40px;
-    border-radius: 5px;
-    box-shadow: 0;
-    box-shadow: inset 0 0 6px var(--text-accent);
 }
 
-.idei-btn{
-    margin: 10px 500px;
-    border: none;
-    background-color: #fff;
+.tel-input{
+    width: 560px;
+    height: 40px;
+}
+
+.feedback-text{
+    margin: 0 0 5px 0;
+    text-align: center;
     color: var(--text-color);
-    padding: 5px 10px;
-    border-radius: 5px;
 }
 
-.idei-btn:focus{
+.feedback-btn{
+    border: 1px solid var(--text-accent);
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: var(--text-color);
+    padding: 8px 20px;
+    margin: 10px 0 10px 45%;
+}
+
+.feedback-btn:hover{
+    box-shadow: 0 0 4px 1px var(--text-accent);
+}
+
+.feedback-btn:focus{
     outline: none;
 }
