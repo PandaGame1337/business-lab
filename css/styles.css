@@ -1072,3 +1072,56 @@ input:valid~.auth-label {
 .about-lessons-block{
     margin: 20px 0;
 }
+
+.edit-profile{
+    margin-left: 250px;
+    width: 900px;
+    align-items: center;
+}
+
+.edit-profile-form p{
+    margin: 0 0 0 4px;
+    color: var(--text-color);
+}
+
+.edit-profile-input{
+    margin: 2px 0 20px 0;
+    border-radius: 5px;
+    width: 600px;
+    height: 30px;
+}
+
+.edit-profile-textarrea{
+    margin: 2px 0 20px 0;
+    border-radius: 5px;
+    width: 600px;
+    height: 200px;
+}
+
+.btn-edit-profile{
+    border: 1px solid var(--text-accent);
+    background-color: var(--text-accent);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-left: 198px;
+
+}
+
+.btn-edit-profile:hover{
+    border: 1px solid var(--text-accent);
+    background-color: white;
+    color: var(--text-color);
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.btn-edit-profile:focus{
+    outline: none;
+    box-shadow: 0 0 4px 1px var(--text-accent);
+}
+
+
